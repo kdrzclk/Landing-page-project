@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text p {
+  font-weight: 300;
+  color: white;
+  margin-top: 10px;
+}
+
+.try {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  padding: 10px 5px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 55vh;
+  width: 30vw;
+}
+
+.form input {
+  margin-bottom: 15px;
+  width: 80%;
+  border: 1px solid gray;
+  padding: 10px 5px;
+  font-size: 16px;
+  font-weight: 400;
+  outline-width: 0;
+}
+
+.trial {
+  margin-bottom: 15px;
+  width: 80%;
+  border: 1px solid gray;
+  padding: 10px 5px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.form p {
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+}
+
+.form span {
+  color: hsl(0, 100%, 74%);
+}
